@@ -51,12 +51,17 @@ body {
     transition: 0.4s;
     z-index: 99;
 }
-
-.sidebar h2 {
-    color: white;
+.sidebar .logo {
     text-align: center;
+    margin-bottom: 25px;
 }
 
+.sidebar .logo img {
+    width: 300px;
+    height:200px;
+    object-fit: contain;
+}
+    
 .sidebar ul {
     list-style: none;
     padding: 0;

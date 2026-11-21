@@ -50,10 +50,15 @@ body {
     transition: 0.4s;
     z-index: 100;
 }
-
-.sidebar h2 {
-    color: white;
+.sidebar .logo {
     text-align: center;
+    margin-bottom: 25px;
+}
+
+.sidebar .logo img {
+    width: 300px;
+    height:200px;
+    object-fit: contain;
 }
 
 .sidebar ul {
